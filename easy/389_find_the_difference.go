@@ -1,6 +1,5 @@
 package easy
 
-
 /*
 Constraints:
 
@@ -32,7 +31,7 @@ func findTheDifference(s string, t string) byte {
 	for i = 0; i < lt; i++ {
 		key = t[i]
 		if value, found = symbols[key]; found {
-			value-=1
+			value -= 1
 			if value == 0 {
 				delete(symbols, key)
 			} else {

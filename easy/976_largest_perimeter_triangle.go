@@ -19,7 +19,7 @@ func largestPerimeter(nums []int) int {
 	sum := 0
 	largest := 0
 	for i := len(nums) - 3; i >= 0; i-- {
-		sum = nums[i]+nums[i+1]
+		sum = nums[i] + nums[i+1]
 		largest = nums[i+2]
 		if sum > largest {
 			return sum + largest

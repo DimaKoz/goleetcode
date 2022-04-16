@@ -8,8 +8,8 @@ func TestLargestPerimeter(t *testing.T) {
 		expect int
 	}
 	cases := []Case{
-		{income: []int{2,1,2}, expect: 5},
-		{income: []int{1,2,1}, expect: 0},
+		{income: []int{2, 1, 2}, expect: 5},
+		{income: []int{1, 2, 1}, expect: 0},
 	}
 
 	for _, item := range cases {

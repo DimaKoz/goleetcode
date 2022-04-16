@@ -9,7 +9,7 @@ func TestMergeAlternately(t *testing.T) {
 		expect string
 	}
 	cases := []Case{
-		{"abcd","pq", "apbqcd"},
+		{"abcd", "pq", "apbqcd"},
 		{"ab", "pqrs", "apbqrs"},
 		{"abc", "pqr", "apbqcr"},
 	}
