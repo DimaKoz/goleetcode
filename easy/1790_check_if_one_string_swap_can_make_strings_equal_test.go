@@ -2,7 +2,7 @@ package easy
 
 import "testing"
 
-func TestLargestPerimeter(t *testing.T) {
+func TestAreAlmostEqual(t *testing.T) {
 	type Case struct {
 		s1     string
 		s2     string
