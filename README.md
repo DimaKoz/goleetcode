@@ -4,6 +4,13 @@ This repository contains some of my solutions to problems that were provided by 
 
 ## easy lvl
 
+- [1. Two Sum](https://leetcode.com/problems/two-sum/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1_two_sum.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1_two_sum_test.go)) <details> <summary>Description</summary>
+  Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
+
+  You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+  You can return the answer in any order.
+
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree_test.go)) <details> <summary>Description</summary>
   Given the `root` of a binary tree, return its maximum depth.
 
