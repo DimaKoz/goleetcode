@@ -10,6 +10,13 @@ This repository contains some of my solutions to problems that were provided by 
   You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
   You can return the answer in any order.
+  
+- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/21_merge_two_sorted_lists.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/21_merge_two_sorted_lists_test.go)) <details> <summary>Description</summary>
+  You are given the heads of two sorted linked lists `list1` and `list2`.
+
+  Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
+
+  Return the head of the merged linked list.
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree_test.go)) <details> <summary>Description</summary>
   Given the `root` of a binary tree, return its maximum depth.
@@ -25,6 +32,10 @@ This repository contains some of my solutions to problems that were provided by 
 
   Note that you must do this in-place without making a copy of the array.
 
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/344_reverse_string.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/344_reverse_string_test.go)) <details> <summary>Description</summary>
+  Write a function that reverses a string. The input string is given as an array of characters `s`.
+
+  You must do this by modifying the input array in-place with **O(1)** extra memory.
 
 - [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/496_next_greater_element_1.go), [tests](https://github.com/DimaKoz/goleetcode/blob/0caf9689320aca77618e24cd1ded4a6f75c7eb18/easy/496_next_greater_element_1_test.go#L5)) <details> <summary>Description</summary>
 The **next greater element** of some element `x` in an array is the **first greater** element that is **to the right** of `x` in the same array.
