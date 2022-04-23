@@ -46,17 +46,17 @@ func freqAlphabets(s string) string {
 	l := len(s)
 
 	result := bytes.Buffer{}
-	key := ""
+	v := ""
 	i2 := 0
 	for i := 0; i < l; i++ {
 		i2 = i + 2
 		if i2 < l && s[i2] == '#' {
-			key, _ = dict[s[i:i2]]
+			v, _ = dict[s[i:i2]]
 			i = i2
 		} else {
-			key, _ = dict[string(s[i])]
+			v, _ = dict[string(s[i])]
 		}
-		result.WriteString(key)
+		result.WriteString(v)
 	}
 	return result.String()
 }
