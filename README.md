@@ -17,6 +17,15 @@ This repository contains some of my solutions to problems that were provided by 
   Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
 
   Return the head of the merged linked list.
+  
+- [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/29_divide_two_integers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/29_divide_two_integers_test.go)) <details> <summary>Description</summary>
+  Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
+
+  The integer division should truncate toward zero, which means losing its fractional part. For example, `8.345` would be truncated to `8`, and `-2.7335` would be truncated to `-2`.
+
+  Return the quotient after dividing dividend by divisor.
+
+  Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: `[−2^31, 2^31 − 1]`. For this problem, if the quotient is strictly greater than `2^31 - 1`, then return `2^31 - 1`, and if the quotient is strictly less than `-2^31`, then return `-2^31`.
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree_test.go)) <details> <summary>Description</summary>
   Given the `root` of a binary tree, return its maximum depth.
