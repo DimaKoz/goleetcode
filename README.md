@@ -39,6 +39,18 @@ This repository contains some of my solutions to problems that were provided by 
 
   Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: `[−2^31, 2^31 − 1]`. For this problem, if the quotient is strictly greater than `2^31 - 1`, then return `2^31 - 1`, and if the quotient is strictly less than `-2^31`, then return `-2^31`.
 
+- [38. Count and Say](https://leetcode.com/problems/count-and-say/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/38_count_and_say.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/38_count_and_say_test.go)) <details> <summary>Description</summary>
+  The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
+
+  `countAndSay(1) = "1"`
+  `countAndSay(n)` is the way you would "say" the digit string from `countAndSay(n-1)`, which is then converted into a different digit string.
+  To determine how you "say" a digit string, split it into the minimal number of groups so that each group is a contiguous section all of the same character. Then for each group, say the number of characters, then say the character. To convert the saying into a digit string, replace the counts with a number and concatenate every saying.
+
+  For example, the saying and conversion for digit string `"3322251"`: !["3322251":](https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg)
+
+
+  Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
+
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree_test.go)) <details> <summary>Description</summary>
   Given the `root` of a binary tree, return its maximum depth.
 
