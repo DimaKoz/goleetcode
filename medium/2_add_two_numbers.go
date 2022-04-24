@@ -38,11 +38,11 @@ func addTwoNumbersVar2(l1 *ListNode, l2 *ListNode) *ListNode {
 	value1 := sliceToIntAddTwoNumbersReversed(l1Slice)
 	value2 := sliceToIntAddTwoNumbersReversed(l2Slice)
 
-	sum := big.NewInt(0).Add(value1, value2) // sum := value1 + value2
+	sum := value1.Add(value1, value2) // sum := value1 + value2
 
 	result := splitToDigitsAddTwoNumbers(sum)
 
-	var l3 *ListNode = &ListNode{}
+	var l3 = &ListNode{}
 	var answer *ListNode = nil
 	for _, item := range result {
 		l3.Next = &ListNode{item, nil}
@@ -71,11 +71,11 @@ func addTwoNumbersVar1(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	value2 := sliceToIntAddTwoNumbers(l2Slice)
 
-	sum := big.NewInt(0).Add(value1, value2) // sum := value1 + value2
+	sum := value1.Add(value1, value2) // sum := value1 + value2
 
 	result := splitToDigitsAddTwoNumbers(sum)
 
-	var l3 *ListNode = &ListNode{}
+	var l3 = &ListNode{}
 	var answer *ListNode = nil
 	for _, item := range result {
 		l3.Next = &ListNode{item, nil}
@@ -103,6 +103,7 @@ func addTwoNumbersNodesToSlice(l *ListNode) []int {
 func sliceToIntAddTwoNumbersReversed(s []int) *big.Int {
 	res := big.NewInt(0)
 	op := big.NewInt(1)
+	big10 := big.NewInt(10)
 	for i := 0; i < len(s); i++ {
 		//res += int64(s[i]) * op
 		si := big.NewInt(int64(s[i])) // int64(s[i])
@@ -110,7 +111,7 @@ func sliceToIntAddTwoNumbersReversed(s []int) *big.Int {
 		res.Add(res, siMulOp)         //res += int64(s[i]) * op
 
 		// op *= 10
-		op.Mul(op, big.NewInt(10))
+		op.Mul(op, big10)
 
 	}
 	return res
@@ -124,11 +125,12 @@ func reverseIntAddTwoNumbers(s []int) {
 
 func splitToDigitsAddTwoNumbers(n *big.Int) []int {
 	var ret []int
-
-	for n.Cmp(big.NewInt(0)) != 0 {
-		n10 := big.NewInt(0).Mod(n, big.NewInt(10)) //n%10
+	big10 := big.NewInt(10)
+	big0 := big.NewInt(0)
+	for n.Cmp(big0) != 0 {
+		n10 := big.NewInt(0).Mod(n, big10) //n%10
 		ret = append(ret /*n%10*/, int(n10.Int64()))
-		n.Div(n, big.NewInt(10)) //n /= 10
+		n.Div(n, big10) //n /= 10
 
 	}
 

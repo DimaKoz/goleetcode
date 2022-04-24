@@ -32,7 +32,7 @@ func TestAddTwoNumbers(t *testing.T) {
 
 func checkResult(got *ListNode, expect *ListNode, t *testing.T) {
 
-	for got != nil && expect != nil {
+	for got != nil || expect != nil {
 		if got == nil || expect == nil {
 			t.Errorf("different lenght of the case : %v, got:%v", expect, got)
 			break
