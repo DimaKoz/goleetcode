@@ -24,6 +24,12 @@ This repository contains some of my solutions to problems that were provided by 
 
   A binary tree's **maximum depth** is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
+ - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/125_valid_palindrome.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/125_valid_palindrome_test.go)) <details> <summary>Description</summary>
+  A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
+    Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise.
+ 
+  
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
