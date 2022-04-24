@@ -21,7 +21,8 @@ This repository contains some of my solutions to problems that were provided by 
   `Output: [7,0,8]`
   
   `Explanation: 342 + 465 = 807`
-
+  
+  
  - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/8_string_to_integer_atoi.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/8_string_to_integer_atoi_test.go)) <details> <summary>Description</summary>
   Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer (similar to C/C++'s `atoi` function).
   
@@ -141,3 +142,13 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 You are given two strings s1 and s2 of equal length. A string swap is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.&nbsp;
 &nbsp;
 Return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. Otherwise, return false.&nbsp;
+
+## hard lvl
+  
+- [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/hard/4_median_of_two_sorted_arrays.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/hard/4_median_of_two_sorted_arrays_test.go)) <details> <summary>Description</summary>
+  Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
+
+  The overall run time complexity should be `O(log (m+n))`.
+  
+  
+
