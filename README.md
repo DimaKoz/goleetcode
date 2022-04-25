@@ -11,18 +11,6 @@ This repository contains some of my solutions to problems that were provided by 
 
   You can return the answer in any order.
   
-- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/2_add_two_numbers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/2_add_two_numbers_test.go)) <details> <summary>Description</summary>
-  You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add the two numbers and return the `sum` as a linked list.
-
-  You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-  
-  `Input: l1 = [2,4,3], l2 = [5,6,4]`
-  
-  `Output: [7,0,8]`
-  
-  `Explanation: 342 + 465 = 807`
-
-  
 - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/21_merge_two_sorted_lists.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/21_merge_two_sorted_lists_test.go)) <details> <summary>Description</summary>
   You are given the heads of two sorted linked lists `list1` and `list2`.
 
@@ -30,32 +18,18 @@ This repository contains some of my solutions to problems that were provided by 
 
   Return the head of the merged linked list.
   
-- [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/29_divide_two_integers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/29_divide_two_integers_test.go)) <details> <summary>Description</summary>
-  Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
-
-  The integer division should truncate toward zero, which means losing its fractional part. For example, `8.345` would be truncated to `8`, and `-2.7335` would be truncated to `-2`.
-
-  Return the quotient after dividing dividend by divisor.
-
-  Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: `[−2^31, 2^31 − 1]`. For this problem, if the quotient is strictly greater than `2^31 - 1`, then return `2^31 - 1`, and if the quotient is strictly less than `-2^31`, then return `-2^31`.
-
-- [38. Count and Say](https://leetcode.com/problems/count-and-say/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/38_count_and_say.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/38_count_and_say_test.go)) <details> <summary>Description</summary>
-  The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
-
-  `countAndSay(1) = "1"`
-  `countAndSay(n)` is the way you would "say" the digit string from `countAndSay(n-1)`, which is then converted into a different digit string.
-  To determine how you "say" a digit string, split it into the minimal number of groups so that each group is a contiguous section all of the same character. Then for each group, say the number of characters, then say the character. To convert the saying into a digit string, replace the counts with a number and concatenate every saying.
-
-  For example, the saying and conversion for digit string `"3322251"`: !["3322251":](https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg)
-
-
-  Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree_test.go)) <details> <summary>Description</summary>
   Given the `root` of a binary tree, return its maximum depth.
 
   A binary tree's **maximum depth** is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
+ - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/125_valid_palindrome.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/125_valid_palindrome_test.go)) <details> <summary>Description</summary>
+  A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
+    Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise.
+ 
+  
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
@@ -125,3 +99,66 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 You are given two strings s1 and s2 of equal length. A string swap is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.&nbsp;
 &nbsp;
 Return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. Otherwise, return false.&nbsp;
+
+## medium lvl
+  
+- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/2_add_two_numbers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/2_add_two_numbers_test.go)) <details> <summary>Description</summary>
+  You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add the two numbers and return the `sum` as a linked list.
+
+  You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+  
+  `Input: l1 = [2,4,3], l2 = [5,6,4]`
+  
+  `Output: [7,0,8]`
+  
+  `Explanation: 342 + 465 = 807`
+  
+  
+ - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/8_string_to_integer_atoi.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/8_string_to_integer_atoi_test.go)) <details> <summary>Description</summary>
+  Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer (similar to C/C++'s `atoi` function).
+  
+    The algorithm for `myAtoi(string s)` is as follows:
+
+    - Read in and ignore any leading whitespace.
+    - Check if the next character (if not already at the end of the string) is `'-'` or `'+'`. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
+    - Read in next the characters until the next non-digit character or the end of the input is reached. The rest of the string is ignored.
+    - Convert these digits into an integer (i.e. `"123" -> 123`, `"0032" -> 32`). If no digits were read, then the integer is `0`. Change the sign as necessary (from step 2).
+    - If the integer is out of the 32-bit signed integer range `[-2^31, 2^31 - 1]`, then clamp the integer so that it remains in the range. Specifically, integers less than `-2^31` should be clamped to `-2^31`, and integers greater than `2^31 - 1` should be clamped to `2^31 - 1`.
+    - Return the integer as the final result.
+  
+    **Note:**
+
+    Only the space character `' '` is considered a whitespace character.
+    Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.
+  
+- [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/29_divide_two_integers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/29_divide_two_integers_test.go)) <details> <summary>Description</summary>
+  Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
+
+  The integer division should truncate toward zero, which means losing its fractional part. For example, `8.345` would be truncated to `8`, and `-2.7335` would be truncated to `-2`.
+
+  Return the quotient after dividing dividend by divisor.
+
+  Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: `[−2^31, 2^31 − 1]`. For this problem, if the quotient is strictly greater than `2^31 - 1`, then return `2^31 - 1`, and if the quotient is strictly less than `-2^31`, then return `-2^31`.
+
+- [38. Count and Say](https://leetcode.com/problems/count-and-say/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/38_count_and_say.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/38_count_and_say_test.go)) <details> <summary>Description</summary>
+  The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
+
+  `countAndSay(1) = "1"`
+  `countAndSay(n)` is the way you would "say" the digit string from `countAndSay(n-1)`, which is then converted into a different digit string.
+  To determine how you "say" a digit string, split it into the minimal number of groups so that each group is a contiguous section all of the same character. Then for each group, say the number of characters, then say the character. To convert the saying into a digit string, replace the counts with a number and concatenate every saying.
+
+  For example, the saying and conversion for digit string `"3322251"`: !["3322251":](https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg)
+
+
+  Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
+
+  
+## hard lvl
+  
+- [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/hard/4_median_of_two_sorted_arrays.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/hard/4_median_of_two_sorted_arrays_test.go)) <details> <summary>Description</summary>
+  Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
+
+  The overall run time complexity should be `O(log (m+n))`.
+  
+  
+
