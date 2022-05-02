@@ -107,6 +107,18 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Return the array `ans`.
 
+- [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2011_final_value_of_variable_after_performing_operations.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2011_final_value_of_variable_after_performing_operations_test.go)) <details> <summary>Description</summary>
+  There is a programming language with only four operations and one variable `X`:
+
+    - `++X` and `X++` increments the value of the variable `X` by `1`.
+  
+    - `--X` and `X--` decrements the value of the variable `X` by `1`.
+  
+  Initially, the value of `X` is `0`.
+
+  Given an array of strings operations containing a list of operations, return the final value of `X` after performing all the operations.
+
+  
 ## medium lvl
   
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/2_add_two_numbers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/2_add_two_numbers_test.go)) <details> <summary>Description</summary>
