@@ -69,6 +69,12 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 
 - [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/709_to_lower_case.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/709_to_lower_case_test.go)) <details> <summary>Description</summary>
 Given a string `s`, return the string after replacing every uppercase letter with the same lowercase letter.
+ 
+- [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1108_defanging_an_ip_address.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1108_defanging_an_ip_address_test.go)) <details> <summary>Description</summary>
+  Given a valid (IPv4) IP address, return a defanged version of that IP address.
+
+  A defanged IP address replaces every period `"."` with `"[.]"`.
+  
   
 - [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1232_check_if_it_is_a_straight_line_test.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1232_check_if_it_is_a_straight_line_test.go)) <details> <summary>Description</summary>
 You are given an array `coordinates`, `coordinates[i] = [x, y]`, where `[x, y]` represents the coordinate of a point. Check if these points make a straight line in the XY plane.
