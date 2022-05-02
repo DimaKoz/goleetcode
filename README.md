@@ -124,6 +124,11 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Given an array of strings operations containing a list of operations, return the final value of `X` after performing all the operations.
 
+- [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children_test.go)) <details> <summary>Description</summary>
+  You are given the `root` of a binary tree that consists of exactly 3 nodes: the root, its left child, and its right child.
+
+  Return `true` if the value of the root is equal to the sum of the values of its two children, or `false` otherwise.
+
   
 ## medium lvl
   
