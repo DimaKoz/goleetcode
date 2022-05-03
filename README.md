@@ -123,7 +123,15 @@ Return true if it is possible to make both strings equal by performing at most o
   Initially, the value of `X` is `0`.
 
   Given an array of strings operations containing a list of operations, return the final value of `X` after performing all the operations.
+  
+- [2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2114_maximum_number_of_words_found_in_sentences.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2114_maximum_number_of_words_found_in_sentences_test.go)) <details> <summary>Description</summary>
+  A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
 
+  You are given an array of strings `sentences`, where each `sentences[i]` represents a single sentence.
+
+  Return the maximum number of words that appear in a single sentence.
+  
+  
 - [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children_test.go)) <details> <summary>Description</summary>
   You are given the `root` of a binary tree that consists of exactly 3 nodes: the root, its left child, and its right child.
 
