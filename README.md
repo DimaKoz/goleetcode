@@ -17,7 +17,6 @@ This repository contains some of my solutions to problems that were provided by 
   Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
 
   Return the head of the merged linked list.
-  
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/104_maximum_depth_of_binary_tree_test.go)) <details> <summary>Description</summary>
   Given the `root` of a binary tree, return its maximum depth.
@@ -28,12 +27,10 @@ This repository contains some of my solutions to problems that were provided by 
   A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 
     Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise.
- 
-  
+
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
-
-
+  
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/283_move_zeroes.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/283_move_zeroes_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
@@ -65,8 +62,6 @@ For each `0 <= i < nums1.length`, find the index `j` such that `nums1[i] == nums
 Given the root of an n-ary tree, return the preorder traversal of its nodes' values.&nbsp;
 Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value. 
   
-
-
 - [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/709_to_lower_case.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/709_to_lower_case_test.go)) <details> <summary>Description</summary>
 Given a string `s`, return the string after replacing every uppercase letter with the same lowercase letter.
  
@@ -74,8 +69,7 @@ Given a string `s`, return the string after replacing every uppercase letter wit
   Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
   A defanged IP address replaces every period `"."` with `"[.]"`.
-  
-  
+
 - [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1232_check_if_it_is_a_straight_line_test.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1232_check_if_it_is_a_straight_line_test.go)) <details> <summary>Description</summary>
 You are given an array `coordinates`, `coordinates[i] = [x, y]`, where `[x, y]` represents the coordinate of a point. Check if these points make a straight line in the XY plane.
 
@@ -92,8 +86,7 @@ Return the array after sorting it.
   Given a square matrix `mat`, return the sum of the matrix diagonals.
 
   Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
-  
-  
+   
 - [1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1588_sum_of_all_odd_length_subarrays.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1588_sum_of_all_odd_length_subarrays_test.go)) <details> <summary>Description</summary>
 Given an array of positive integers `arr`, calculate the sum of all possible odd-length subarrays.
 
@@ -105,7 +98,12 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 You are given two strings s1 and s2 of equal length. A string swap is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.&nbsp;
 &nbsp;
 Return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. Otherwise, return false.&nbsp;
-  
+
+- [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1920_build_array_from_permutation.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1920_build_array_from_permutation_test.go)) <details> <summary>Description</summary>
+  Given a zero-based permutation nums (0-indexed), build an array `ans` of the same length where `ans[i] = nums[nums[i]]` for each `0 <= i < nums.length` and return it.
+
+  A zero-based permutation nums is an array of distinct integers from `0` to `nums.length - 1` (inclusive).
+
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1929_concatenation_of_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1929_concatenation_of_array_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums` of length `n`, you want to create an array `ans` of length `2n` where `ans[i] == nums[i]` and `ans[i + n] == nums[i]` for `0 <= i < n` (0-indexed).
 
@@ -133,7 +131,6 @@ Return true if it is possible to make both strings equal by performing at most o
   
 - [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2235_add_two_integers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2235_add_two_integers_test.go)) <details> <summary>Description</summary>
   Given two integers `num1` and `num2`, return the **sum** of the two integers.
-
   
 - [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children_test.go)) <details> <summary>Description</summary>
   You are given the `root` of a binary tree that consists of exactly 3 nodes: the root, its left child, and its right child.
