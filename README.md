@@ -131,6 +131,9 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Return the maximum number of words that appear in a single sentence.
   
+- [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2235_add_two_integers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2235_add_two_integers_test.go)) <details> <summary>Description</summary>
+  Given two integers `num1` and `num2`, return the **sum** of the two integers.
+
   
 - [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2236_root_equals_sum_of_children_test.go)) <details> <summary>Description</summary>
   You are given the `root` of a binary tree that consists of exactly 3 nodes: the root, its left child, and its right child.
