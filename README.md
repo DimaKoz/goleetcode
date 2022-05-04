@@ -86,7 +86,12 @@ Return the array after sorting it.
   Given the array `nums` consisting of `2n` elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
 
   Return the array in the form `[x1,y1,x2,y2,...,xn,yn]`.
+  
+- [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1512_number_of_good_pairs.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1512_number_of_good_pairs_test.go)) <details> <summary>Description</summary>
+  Given an array of integers `nums`, return the number of **good pairs**.
 
+  A pair `(i, j)` is called good if `nums[i] == nums[j]` and `i < j`.
+  
 - [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1572_matrix_diagonal_sum.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1572_matrix_diagonal_sum_test.go)) <details> <summary>Description</summary>
   Given a square matrix `mat`, return the sum of the matrix diagonals.
 
