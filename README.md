@@ -86,7 +86,14 @@ Given head which is a reference node to a singly-linked list. The value of each 
 - [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1356_sort_integers_by_the_number_of_1_bits.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1356_sort_integers_by_the_number_of_1_bits_test.go)) <details> <summary>Description</summary>
 You are given an integer array `arr`. Sort the integers in the array in ascending order by the number of 1's in their binary representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.
 Return the array after sorting it.
-   
+  
+- [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1431_kids_with_the_greatest_number_of_candies.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1431_kids_with_the_greatest_number_of_candies_test.go)) <details> <summary>Description</summary>
+  There are `n` kids with candies. You are given an integer array `candies`, where each `candies[i]` represents the number of candies the `i-th` kid has, and an integer `extraCandies`, denoting the number of extra candies that you have.
+
+  Return a boolean array `result` of length `n`, where `result[i]` is `true` if, after giving the `i-th` kid all the `extraCandies`, they will have the greatest number of candies among all the kids, or `false` otherwise.
+
+  Note that **multiple** kids can have the **greatest** number of candies.   
+  
 - [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1470_shuffle_the_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1470_shuffle_the_array_test.go)) <details> <summary>Description</summary>
   Given the array `nums` consisting of `2n` elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
 
