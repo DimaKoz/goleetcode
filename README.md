@@ -110,7 +110,12 @@ Return the array after sorting it.
   Given an array of integers `nums`, return the number of **good pairs**.
 
   A pair `(i, j)` is called good if `nums[i] == nums[j]` and `i < j`.
-  
+
+- [1528. Shuffle String](https://leetcode.com/problems/shuffle-string/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1528_shuffle_string.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1528_shuffle_string_test.go)) <details> <summary>Description</summary>
+  You are given a string `s` and an integer array `indices` of the same length. The string `s` will be shuffled such that the character at the `i-th` position moves to `indices[i]` in the shuffled string.
+
+  Return the *shuffled string*.
+
 - [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1572_matrix_diagonal_sum.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1572_matrix_diagonal_sum_test.go)) <details> <summary>Description</summary>
   Given a square matrix `mat`, return the sum of the matrix diagonals.
 
