@@ -83,6 +83,13 @@ Given head which is a reference node to a singly-linked list. The value of each 
 
   Return the decimal value of the number in the linked list.  
 
+- [1313. Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1313_decompress_run_length_encoded_list.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1313_decompress_run_length_encoded_list_test.go)) <details> <summary>Description</summary>
+  We are given a list nums of integers representing a list compressed with run-length encoding.
+
+  Consider each adjacent pair of elements `[freq, val] = [nums[2*i], nums[2*i+1]]` (with `i >= 0`).  For each such pair, there are `freq` elements with value `val` concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list.
+
+  Return the decompressed list.
+
 - [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1356_sort_integers_by_the_number_of_1_bits.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1356_sort_integers_by_the_number_of_1_bits_test.go)) <details> <summary>Description</summary>
 You are given an integer array `arr`. Sort the integers in the array in ascending order by the number of 1's in their binary representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.
 Return the array after sorting it.
