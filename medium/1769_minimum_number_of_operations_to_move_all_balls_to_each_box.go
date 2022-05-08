@@ -30,7 +30,7 @@ func minOperations(boxes string) []int {
 	ballCounter, opsCounter = 0, 0
 
 	//<--
-	for i = len(operations) - 1; i >= 0 ;i-- {
+	for i = len(operations) - 1; i >= 0; i-- {
 		operations[i] += opsCounter
 		if boxes[i] == '1' {
 			ballCounter++
