@@ -233,6 +233,15 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
 
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/1769_minimum_number_of_operations_to_move_all_balls_to_each_box.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/1769_minimum_number_of_operations_to_move_all_balls_to_each_box_test.go)) <details> <summary>Description</summary>
+  You have n boxes. You are given a binary string `boxes` of length `n`, where `boxes[i]` is `'0'` if the `i-th` box is empty, and `'1'` if it contains one ball.
+
+  In one operation, you can move one ball from a box to an adjacent box. Box `i` is adjacent to box `j` if `abs(i - j) == 1`. Note that after doing so, there may be more than one ball in some boxes.
+
+  Return an array `answer` of size `n`, where `answer[i]` is the minimum number of operations needed to move all the balls to the `i-th` box.
+
+  Each `answer[i]` is calculated considering the initial state of the boxes.
+
   
 ## hard lvl
   
