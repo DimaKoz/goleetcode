@@ -230,9 +230,19 @@ Return true if it is possible to make both strings equal by performing at most o
 
   For example, the saying and conversion for digit string `"3322251"`: !["3322251":](https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg)
 
-
   Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
 
+- [1476. Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1476_subrectangle_queries.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1476_subrectangle_queries_test.go)) <details> <summary>Description</summary>
+  Implement the class `SubrectangleQueries` which receives a `rows x cols` rectangle as a matrix of integers in the constructor and supports two methods:
+
+    1. `updateSubrectangle(int row1, int col1, int row2, int col2, int newValue)`
+       
+    Updates all values with `newValue` in the subrectangle whose upper left coordinate is `(row1,col1)` and bottom right coordinate is `(row2,col2)`.
+    
+    2. `getValue(int row, int col)`
+       
+    Returns the current value of the coordinate `(row,col)` from the rectangle.
+  
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/1769_minimum_number_of_operations_to_move_all_balls_to_each_box.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/1769_minimum_number_of_operations_to_move_all_balls_to_each_box_test.go)) <details> <summary>Description</summary>
   You have n boxes. You are given a binary string `boxes` of length `n`, where `boxes[i]` is `'0'` if the `i-th` box is empty, and `'1'` if it contains one ball.
 
