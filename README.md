@@ -75,6 +75,13 @@ Given a string `s`, return the string after replacing every uppercase letter wit
 
   A defanged IP address replaces every period `"."` with `"[.]"`.
 
+- [1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1221_split_a_string_in_balanced_strings.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1221_split_a_string_in_balanced_strings_test.go)) <details> <summary>Description</summary>
+  Balanced strings are those that have an equal quantity of `'L'` and `'R'` characters.
+
+  Given a balanced string `s`, split it in the maximum amount of balanced strings.
+
+  Return the maximum amount of split balanced strings.
+  
 - [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1232_check_if_it_is_a_straight_line_test.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1232_check_if_it_is_a_straight_line_test.go)) <details> <summary>Description</summary>
 You are given an array `coordinates`, `coordinates[i] = [x, y]`, where `[x, y]` represents the coordinate of a point. Check if these points make a straight line in the XY plane.
 
