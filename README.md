@@ -162,6 +162,19 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 
   Return the original array `arr`. It can be proved that the answer exists and is unique.
   
+- [1773. Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1773_count_items_matching_a_rule.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1773_count_items_matching_a_rule_test.go)) <details> <summary>Description</summary>
+  You are given an array `items`, where each `items[i] = [type-i, color-i, name-i]` describes the type, color, and name of the `i-th` item. You are also given a rule represented by two strings, `ruleKey` and `ruleValue`.
+
+  The `i-th` item is said to match the rule if one of the following is true:
+
+  `ruleKey == "type"` and `ruleValue == type-i`.
+  
+  `ruleKey == "color"` and `ruleValue == color-i`.
+  
+  `ruleKey == "name"` and `ruleValue == name-i`.
+  
+  Return the number of items that match the given rule.
+
 - [1790. Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1790_check_if_one_string_swap_can_make_strings_equal.go), [tests](https://github.com/DimaKoz/goleetcode/blob/330cf42a69deaffbb444bbcf8d3fa150461d9005/easy/1790_check_if_one_string_swap_can_make_strings_equal_test.go#L5)) <details> <summary>Description</summary>
 You are given two strings s1 and s2 of equal length. A string swap is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.&nbsp;
 &nbsp;
