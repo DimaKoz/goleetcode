@@ -218,6 +218,19 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Return the maximum number of words that appear in a single sentence.
   
+- [2194. Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2194_cells_in_a_range_on_an_excel_sheet.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2194_cells_in_a_range_on_an_excel_sheet_test.go)) <details> <summary>Description</summary>
+  A cell `(r, c)` of an excel sheet is represented as a string `"<col><row>"` where:
+
+  -`<col>` denotes the column number `c` of the cell. It is represented by alphabetical letters.
+  
+    For example, the `1st` column is denoted by `'A'`, the `2nd` by `'B'`, the `3rd` by `'C'`, and so on.
+  
+  -`<row>` is the row number `r` of the cell. The `r-th` row is represented by the integer `r`.
+  
+  You are given a string `s` in the format `"<col1><row1>:<col2><row2>"`, where `<col1>` represents the column `c1`, `<row1>` represents the row `r1`, `<col2>` represents the column c2, and <row2> represents the row `r2`, such that `r1 <= r2` and `c1 <= c2`.
+
+  Return the list of cells `(x, y)` such that `r1 <= x <= r2` and `c1 <= y <= c2`. The cells should be represented as strings in the format mentioned above and be sorted in non-decreasing order first by columns and then by rows.
+  
 - [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2235_add_two_integers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2235_add_two_integers_test.go)) <details> <summary>Description</summary>
   Given two integers `num1` and `num2`, return the **sum** of the two integers.
   
