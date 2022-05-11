@@ -131,6 +131,13 @@ Return the array after sorting it.
 
   Return the array in the form `[x1,y1,x2,y2,...,xn,yn]`.
   
+- [1486. XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1486_xor_operation_in_an_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1486_xor_operation_in_an_array_test.go)) <details> <summary>Description</summary>
+  You are given an integer `n` and an integer `start`.
+
+  Define an array nums where `nums[i] = start + 2 * i` (0-indexed) and `n == nums.length`.
+
+  Return the bitwise XOR of all elements of `nums`.
+  
 - [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1512_number_of_good_pairs.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1512_number_of_good_pairs_test.go)) <details> <summary>Description</summary>
   Given an array of integers `nums`, return the number of **good pairs**.
 
