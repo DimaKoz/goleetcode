@@ -16,11 +16,11 @@ Memory Usage: 1.8 MB, less than 100.00% of Go online submissions for XOR Operati
 */
 func xorOperation(n int, start int) int {
 	result, counter := start, start
-	for i:= 0; i < n; i++ {
+	for i := 0; i < n; i++ {
 		if start != counter {
 			result ^= counter
 		}
-		counter +=2
+		counter += 2
 	}
 	return result
 }

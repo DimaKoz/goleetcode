@@ -160,6 +160,15 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 
   Return the sum of all odd-length subarrays of `arr`.
   
+- [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1688_count_of_matches_in_tournament.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1688_count_of_matches_in_tournament_test.go)) <details> <summary>Description</summary>
+  You are given an integer `n`, the number of teams in a tournament that has strange rules:
+
+  If the current number of teams is even, each team gets paired with another team. A total of `n / 2` matches are played, and `n / 2` teams advance to the next round.
+  
+  If the current number of teams is odd, one team randomly advances in the tournament, and the rest gets paired. A total of `(n - 1) / 2` matches are played, and `(n - 1) / 2 + 1` teams advance to the next round.
+  
+  Return the number of matches played in the tournament until a winner is decided.
+  
 - [1720. Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1720_decode_xored_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1720_decode_xored_array_test.go)) <details> <summary>Description</summary>
   There is a hidden integer array `arr` that consists of `n` non-negative integers.
 

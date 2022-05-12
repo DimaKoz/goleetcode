@@ -4,12 +4,12 @@ import "testing"
 
 func TestXorOperation(t *testing.T) {
 	type Case struct {
-		n  int
-		start int
+		n      int
+		start  int
 		expect int
 	}
 	cases := []Case{
-		{5,0, 8},
+		{5, 0, 8},
 		{4, 3, 8},
 	}
 	for index, item := range cases {
@@ -18,4 +18,3 @@ func TestXorOperation(t *testing.T) {
 		}
 	}
 }
-
