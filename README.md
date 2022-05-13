@@ -215,6 +215,14 @@ Return true if it is possible to make both strings equal by performing at most o
   Specifically, `ans` is the concatenation of two `nums` arrays.
 
   Return the array `ans`.
+  
+- [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2006_count_number_of_pairs_with_absolute_difference_k.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2006_count_number_of_pairs_with_absolute_difference_k_test.go)) <details> <summary>Description</summary>
+  Given an integer array `nums` and an integer `k`, return the number of pairs `(i, j)` where `i < j` such that `|nums[i] - nums[j]| == k`.
+
+  The value of |x| is defined as:
+
+  `x` if `x >= 0`.
+  `-x` if `x < 0`.
 
 - [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2011_final_value_of_variable_after_performing_operations.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2011_final_value_of_variable_after_performing_operations_test.go)) <details> <summary>Description</summary>
   There is a programming language with only four operations and one variable `X`:
