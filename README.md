@@ -344,6 +344,16 @@ Return true if it is possible to make both strings equal by performing at most o
   Return an array `answer` of size `n`, where `answer[i]` is the minimum number of operations needed to move all the balls to the `i-th` box.
 
   Each `answer[i]` is calculated considering the initial state of the boxes.
+  
+- [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/2149_rearrange_array_elements_by_sign.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/2149_rearrange_array_elements_by_sign_test.go)) <details> <summary>Description</summary>
+  You are given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.
+
+  You should rearrange the elements of nums such that the modified array follows the given conditions:
+
+  Every consecutive pair of integers have opposite signs.
+  For all integers with the same sign, the order in which they were present in nums is preserved.
+  The rearranged array begins with a positive integer.
+  Return the modified array after rearranging the elements to satisfy the aforementioned conditions.
 
 - [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/2161_partition_array_according_to_given_pivot.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/2161_partition_array_according_to_given_pivot_test.go)) <details> <summary>Description</summary>
   You are given a 0-indexed integer array nums and an integer pivot. Rearrange nums such that the following conditions are satisfied:
