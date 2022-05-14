@@ -234,6 +234,16 @@ Return true if it is possible to make both strings equal by performing at most o
   Initially, the value of `X` is `0`.
 
   Given an array of strings operations containing a list of operations, return the final value of `X` after performing all the operations.
+
+- [2037. Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2037_minimum_number_of_moves_to_seat_everyone.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2037_minimum_number_of_moves_to_seat_everyone_test.go)) <details> <summary>Description</summary>
+  There are `n` seats and `n` students in a room. You are given an array `seats` of length `n`, where `seats[i]` is the position of the `i-th` seat. You are also given the array `students` of length `n`, where `students[j]` is the position of the `j-th` student.
+
+  You may perform the following move any number of times:
+
+  Increase or decrease the position of the `i-th` student by `1` (i.e., moving the `i-th` student from position `x` to `x + 1` or `x - 1`)
+  Return the minimum number of moves required to move each student to a seat such that no two students are in the same seat.
+
+  Note that there may be multiple seats or students in the same position at the beginning.
   
 - [2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2114_maximum_number_of_words_found_in_sentences.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2114_maximum_number_of_words_found_in_sentences_test.go)) <details> <summary>Description</summary>
   A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
