@@ -254,6 +254,19 @@ Return true if it is possible to make both strings equal by performing at most o
   Return the minimum number of moves required to move each student to a seat such that no two students are in the same seat.
 
   Note that there may be multiple seats or students in the same position at the beginning.
+
+- [2103. Rings and Rods](https://leetcode.com/problems/rings-and-rods/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2103_rings_and_rods.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2103_rings_and_rods_test.go)) <details> <summary>Description</summary>
+  There are `n` rings and each ring is either red, green, or blue. The rings are distributed across ten rods labeled from `0` to `9`.
+
+  You are given a string `rings` of length `2n` that describes the `n` rings that are placed onto the rods. Every two characters in `rings` forms a color-position pair that is used to describe each ring where:
+
+  - The first character of the `i-th` pair denotes the `i-th` ring's color (`'R'`, `'G'`, `'B'`).
+  
+  - The second character of the `i-th` pair denotes the rod that the `i-th` ring is placed on (`'0'` to `'9'`).
+  
+  For example, `"R3G2B1"` describes `n == 3` rings: a red ring placed onto the rod labeled 3, a green ring placed onto the rod labeled 2, and a blue ring placed onto the rod labeled 1.
+
+  Return the number of rods that have all three colors of rings on them.  
   
 - [2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2114_maximum_number_of_words_found_in_sentences.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2114_maximum_number_of_words_found_in_sentences_test.go)) <details> <summary>Description</summary>
   A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
