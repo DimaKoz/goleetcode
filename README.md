@@ -159,7 +159,12 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
   A subarray is a contiguous subsequence of the array.
 
   Return the sum of all odd-length subarrays of `arr`.
-  
+
+- [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1662_check_if_two_string_arrays_are_equivalent.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1662_check_if_two_string_arrays_are_equivalent_test.go)) <details> <summary>Description</summary>
+  Given two string arrays `word1` and `word2`, return `true` if the two arrays represent the same string, and `false` otherwise.
+
+  A string is represented by an array if the array elements concatenated in order forms the string.
+
 - [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1688_count_of_matches_in_tournament.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1688_count_of_matches_in_tournament_test.go)) <details> <summary>Description</summary>
   You are given an integer `n`, the number of teams in a tournament that has strange rules:
 
