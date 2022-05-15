@@ -165,6 +165,11 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 
   A string is represented by an array if the array elements concatenated in order forms the string.
 
+- [1684. Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1684_count_the_number_of_consistent_strings.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1684_count_the_number_of_consistent_strings_test.go)) <details> <summary>Description</summary>
+  You are given a string `allowed` consisting of distinct characters and an array of strings `words`. A string is consistent if all characters in the string appear in the string `allowed`.
+
+  Return the number of consistent strings in the array`words`.
+  
 - [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1688_count_of_matches_in_tournament.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1688_count_of_matches_in_tournament_test.go)) <details> <summary>Description</summary>
   You are given an integer `n`, the number of teams in a tournament that has strange rules:
 
