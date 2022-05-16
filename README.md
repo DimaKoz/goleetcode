@@ -206,6 +206,11 @@ You are given two strings s1 and s2 of equal length. A string swap is an operati
 &nbsp;
 Return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. Otherwise, return false.&nbsp;
 
+- [1832. Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1832_check_if_the_sentence_is_pangram.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1832_check_if_the_sentence_is_pangram_test.go)) <details> <summary>Description</summary>
+  A **pangram** is a sentence where every letter of the English alphabet appears at least once.
+
+  Given a string `sentence` containing only lowercase English letters, return `true` if `sentence` is a pangram, or `false` otherwise.
+
 - [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1859_sorting_the_sentence.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1859_sorting_the_sentence_test.go)) <details> <summary>Description</summary>
   A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.
 
