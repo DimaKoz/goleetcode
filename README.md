@@ -353,6 +353,11 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
 
+- [1329. Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1329_sort_the_matrix_diagonally.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1329_sort_the_matrix_diagonally_test.go)) <details> <summary>Description</summary>
+  A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix's end. For example, the matrix diagonal starting from `mat[2][0]`, where `mat` is a `6 x 3` matrix, includes cells `mat[2][0]`, `mat[3][1]`, and `mat[4][2]`.
+
+  Given an `m x n` matrix `mat` of integers, sort each matrix diagonal in ascending order and return the resulting matrix.
+
 - [1476. Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1476_subrectangle_queries.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1476_subrectangle_queries_test.go)) <details> <summary>Description</summary>
   Implement the class `SubrectangleQueries` which receives a `rows x cols` rectangle as a matrix of integers in the constructor and supports two methods:
 
