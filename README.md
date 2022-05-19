@@ -86,7 +86,18 @@ Given a string `s`, return the string after replacing every uppercase letter wit
   - For example, `"cab"` can be written as `"-.-..--..."`, which is the concatenation of `"-.-."`, `".-"`, and `"-..."`. We will call such a concatenation the transformation of a word.
 
   Return the number of different transformations among all words we have.
+
+- [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses_test.go)) <details> <summary>Description</summary>
+  A valid parentheses string is either empty `""`, `"(" + A + ")"`, or `A + B`, where `A` and `B` are valid parentheses strings, and `+` represents string concatenation.
+
+  For example, `""`, `"()"`, `"(())()"`, and `"(()(()))"` are all valid parentheses strings.
   
+  A valid parentheses string `s` is primitive if it is nonempty, and there does not exist a way to split it into `s = A + B`, with `A` and `B` nonempty valid parentheses strings.
+
+  Given a valid parentheses string `s`, consider its primitive decomposition: `s = P1 + P2 + ... + Pk`, where `Pi` are primitive valid parentheses strings.
+
+  Return `s` after removing the outermost parentheses of every primitive string in the primitive decomposition of `s`.
+
 - [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1108_defanging_an_ip_address.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1108_defanging_an_ip_address_test.go)) <details> <summary>Description</summary>
   Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
