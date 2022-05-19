@@ -235,6 +235,17 @@ Return true if it is possible to make both strings equal by performing at most o
 
   Given a string `sentence` containing only lowercase English letters, return `true` if `sentence` is a pangram, or `false` otherwise.
 
+- [1844. Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1844_replace_all_digits_with_characters.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1844_replace_all_digits_with_characters_test.go)) <details> <summary>Description</summary>
+  You are given a **0-indexed string** `s` that has lowercase English letters in its **even** indices and digits in its **odd** indices.
+
+  There is a function `shift(c, x)`, where `c` is a character and `x` is a digit, that returns the `x-th` character after `c`.
+
+  - For example, `shift('a', 5) = 'f'` and `shift('x', 0) = 'x'`.
+
+  For every **odd** index `i`, you want to replace the digit `s[i]` with `shift(s[i-1], s[i])`.
+
+  Return `s` after replacing all digits. It is **guaranteed** that `shift(s[i-1], s[i])` will never exceed `'z'`.
+
 - [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1859_sorting_the_sentence.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1859_sorting_the_sentence_test.go)) <details> <summary>Description</summary>
   A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.
 
