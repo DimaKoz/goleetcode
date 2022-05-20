@@ -86,7 +86,18 @@ Given a string `s`, return the string after replacing every uppercase letter wit
   - For example, `"cab"` can be written as `"-.-..--..."`, which is the concatenation of `"-.-."`, `".-"`, and `"-..."`. We will call such a concatenation the transformation of a word.
 
   Return the number of different transformations among all words we have.
+  
+- [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/832_flipping_an_image.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/832_flipping_an_image_test.go)) <details> <summary>Description</summary>
+  Given an `n x n` binary matrix `image`, flip the image horizontally, then invert it, and return the resulting image.
 
+  To flip an image horizontally means that each row of the image is reversed.
+
+  - For example, flipping `[1,1,0]` horizontally results in `[0,1,1]`.
+
+  To invert an image means that each `0` is replaced by `1`, and each `1` is replaced by `0`.
+
+  - For example, inverting `[0,1,1]` results in `[1,0,0]`.
+  
 - [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses_test.go)) <details> <summary>Description</summary>
   A valid parentheses string is either empty `""`, `"(" + A + ")"`, or `A + B`, where `A` and `B` are valid parentheses strings, and `+` represents string concatenation.
 
