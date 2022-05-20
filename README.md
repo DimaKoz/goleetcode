@@ -287,7 +287,12 @@ Return true if it is possible to make both strings equal by performing at most o
   Specifically, `ans` is the concatenation of two `nums` arrays.
 
   Return the array `ans`.
-  
+
+- [1967. Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1967_number_of_strings_that_appear_as_substrings_in_word.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1967_number_of_strings_that_appear_as_substrings_in_word_test.go)) <details> <summary>Description</summary>
+  Given an array of strings `patterns` and a string `word`, return the number of strings in `patterns` that exist as a substring in `word`.
+
+  A substring is a contiguous sequence of characters within a string.
+
 - [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2006_count_number_of_pairs_with_absolute_difference_k.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2006_count_number_of_pairs_with_absolute_difference_k_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums` and an integer `k`, return the number of pairs `(i, j)` where `i < j` such that `|nums[i] - nums[j]| == k`.
 
