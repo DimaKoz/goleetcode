@@ -28,6 +28,11 @@ This repository contains some of my solutions to problems that were provided by 
 
     Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise.
 
+- [169. Majority Element](https://leetcode.com/problems/majority-element/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/169_majority_element.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/169_majority_element_test.go)) <details> <summary>Description</summary>
+  Given an array `nums` of size `n`, return the majority element.
+
+  The majority element is the element that appears more than `[n / 2]` times. You may assume that the majority element always exists in the array.
+
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
   
