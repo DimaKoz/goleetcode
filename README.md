@@ -51,7 +51,26 @@ This repository contains some of my solutions to problems that were provided by 
 
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
+
+- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/232_implement_queue_using_stacks.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/232_implement_queue_using_stacks_test.go)) <details> <summary>Description</summary>
+  Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (`push`, `peek`, `pop`, and `empty`).
+
+  Implement the MyQueue class:
+
+  - `void push(int x)` Pushes element x to the back of the queue.
   
+  - `int pop()` Removes the element from the front of the queue and returns it.
+
+  - `int peek()` Returns the element at the front of the queue.
+
+  - `boolean empty()` Returns true if the queue is empty, false otherwise.
+
+  Notes:
+
+  - You must use only standard operations of a stack, which means only `push to top`, `peek/pop from top`, `size`, and `is empty` operations are valid.
+
+  - Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
+
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/283_move_zeroes.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/283_move_zeroes_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
