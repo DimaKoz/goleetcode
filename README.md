@@ -35,7 +35,20 @@ This repository contains some of my solutions to problems that were provided by 
 
 - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/191_number_of_1_bits.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/191_number_of_1_bits_test.go)) <details> <summary>Description</summary>
   Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the [Hamming weight](http://en.wikipedia.org/wiki/Hamming_weight)).
+
+- [202. Happy Number](https://leetcode.com/problems/happy-number/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/202_happy_number.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/202_happy_number_test.go)) <details> <summary>Description</summary>
+  Write an algorithm to determine if a number `n` is happy.
+
+  A happy number is a number defined by the following process:
+
+  Starting with any positive integer, replace the number by the sum of the squares of its digits.
   
+  Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
+  
+  Those numbers for which this process ends in `1` are happy.
+  
+  Return `true` if `n` is a happy number, and `false` if not.
+
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
   
