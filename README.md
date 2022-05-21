@@ -33,6 +33,9 @@ This repository contains some of my solutions to problems that were provided by 
 
   The majority element is the element that appears more than `[n / 2]` times. You may assume that the majority element always exists in the array.
 
+- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/191_number_of_1_bits.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/191_number_of_1_bits_test.go)) <details> <summary>Description</summary>
+  Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the [Hamming weight](http://en.wikipedia.org/wiki/Hamming_weight)).
+  
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
   
