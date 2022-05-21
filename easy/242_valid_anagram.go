@@ -1,6 +1,8 @@
 package easy
 
 /*
+https://leetcode.com/problems/valid-anagram/
+
 Constraints:
 
 1 <= s.length, t.length <= 5 * 10^4
