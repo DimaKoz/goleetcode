@@ -235,7 +235,12 @@ Return the array after sorting it.
   Define an array nums where `nums[i] = start + 2 * i` (0-indexed) and `n == nums.length`.
 
   Return the bitwise XOR of all elements of `nums`.
-  
+
+- [1502. Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1502_can_make_arithmetic_progression.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1502_can_make_arithmetic_progression_test.go)) <details> <summary>Description</summary>
+  A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
+
+  Given an array of numbers `arr`, return `true` if the array can be rearranged to form an arithmetic progression. Otherwise, return `false`.
+
 - [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1512_number_of_good_pairs.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1512_number_of_good_pairs_test.go)) <details> <summary>Description</summary>
   Given an array of integers `nums`, return the number of **good pairs**.
 
