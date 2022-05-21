@@ -51,12 +51,7 @@ This repository contains some of my solutions to problems that were provided by 
 
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/217_contains_duplicate_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
-
-- [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/242_valid_anagram.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/242_valid_anagram_test.go)) <details> <summary>Description</summary>
-  Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
-
-  An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
-
+  
 - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/232_implement_queue_using_stacks.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/232_implement_queue_using_stacks_test.go)) <details> <summary>Description</summary>
   Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (`push`, `peek`, `pop`, and `empty`).
 
@@ -76,10 +71,26 @@ This repository contains some of my solutions to problems that were provided by 
 
   - Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
 
+- [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/242_valid_anagram.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/242_valid_anagram_test.go)) <details> <summary>Description</summary>
+  Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
+
+  An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/283_move_zeroes.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/283_move_zeroes_test.go)) <details> <summary>Description</summary>
   Given an integer array `nums`, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
   Note that you must do this in-place without making a copy of the array.
+
+- [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/303_range_sum_query_immutable.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/303_range_sum_query_immutable_test.go)) <details> <summary>Description</summary>
+  Given an integer array `nums`, handle multiple queries of the following type:
+
+  1. Calculate the sum of the elements of `nums` between indices `left` and `right` inclusive where `left <= right`.
+
+  Implement the NumArray class:
+
+  - `NumArray(int[] nums)` Initializes the object with the integer array `nums`.
+
+  - `int sumRange(int left, int right)` Returns the sum of the elements of `nums` between indices `left` and `right` inclusive (i.e. `nums[left] + nums[left + 1] + ... + nums[right]`).
 
 - [344. Reverse String](https://leetcode.com/problems/reverse-string/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/344_reverse_string.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/344_reverse_string_test.go)) <details> <summary>Description</summary>
   Write a function that reverses a string. The input string is given as an array of characters `s`.

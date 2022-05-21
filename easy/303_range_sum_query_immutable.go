@@ -1,6 +1,8 @@
 package easy
 
 /*
+https://leetcode.com/problems/range-sum-query-immutable/
+
 Constraints:
 
 1 <= nums.length <= 10^4
