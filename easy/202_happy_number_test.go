@@ -19,5 +19,3 @@ func TestIsHappy(t *testing.T) {
 		}
 	}
 }
-
-
