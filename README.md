@@ -204,6 +204,11 @@ Given head which is a reference node to a singly-linked list. The value of each 
 You are given an integer array `arr`. Sort the integers in the array in ascending order by the number of 1's in their binary representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.
 Return the array after sorting it.
 
+- [1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1365_how_many_numbers_are_smaller_than_the_current_number.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1365_how_many_numbers_are_smaller_than_the_current_number_test.go)) <details> <summary>Description</summary>
+  Given the array `nums`, for each `nums[i]` find out how many numbers in the array are smaller than it. That is, for each `nums[i]` you have to count the number of valid j's such that `j != i` and `nums[j] < nums[i]`.
+
+  Return the answer in an array.
+  
 - [1389. Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1389_create_target_array_in_the_given_order.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1389_create_target_array_in_the_given_order_test.go)) <details> <summary>Description</summary>
   Given two arrays of integers `nums` and `index`. Your task is to create target array under the following rules:
 
