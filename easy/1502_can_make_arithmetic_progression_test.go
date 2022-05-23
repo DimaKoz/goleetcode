@@ -8,11 +8,11 @@ func TestCanMakeArithmeticProgression(t *testing.T) {
 		expect bool
 	}
 	cases := []Case{
-		{income: []int{-6,-2,-4}, expect: true},
-		{income: []int{3,5,1}, expect: true},
-		{income: []int{1,2,4}, expect: false},
-		{income: []int{1,2}, expect: true},
-		{income: []int{1,1}, expect: true},
+		{income: []int{-6, -2, -4}, expect: true},
+		{income: []int{3, 5, 1}, expect: true},
+		{income: []int{1, 2, 4}, expect: false},
+		{income: []int{1, 2}, expect: true},
+		{income: []int{1, 1}, expect: true},
 	}
 
 	for _, item := range cases {
@@ -21,4 +21,3 @@ func TestCanMakeArithmeticProgression(t *testing.T) {
 		}
 	}
 }
-

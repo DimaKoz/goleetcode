@@ -405,6 +405,13 @@ Return true if it is possible to make both strings equal by performing at most o
   You are given an array of strings `sentences`, where each `sentences[i]` represents a single sentence.
 
   Return the maximum number of words that appear in a single sentence.
+  
+- [2160. Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2160_minimum_sum_of_four_digit_number_after_splitting_digits.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2160_minimum_sum_of_four_digit_number_after_splitting_digits_test.go)) <details> <summary>Description</summary>
+  You are given a positive integer `num` consisting of exactly four digits. Split `num` into two new integers `new1` and `new2` by using the digits found in `num`. Leading zeros are allowed in `new1` and `new2`, and all the digits found in `num` must be used.
+
+  For example, given `num = 2932`, you have the following digits: two `2's`, one `9` and one `3`. Some of the possible pairs `[new1, new2]` are `[22, 93]`, `[23, 92]`, `[223, 9]` and `[2, 329]`.
+  
+  Return the minimum possible sum of `new1` and `new2`.
 
 - [2176. Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2176_count_equal_and_divisible_pairs_in_an_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2176_count_equal_and_divisible_pairs_in_an_array_test.go)) <details> <summary>Description</summary>
   Given a 0-indexed integer array `nums` of length `n` and an integer `k`, return the number of pairs `(i, j)` where `0 <= i < j < n`, such that `nums[i] == nums[j]` and `(i * j)` is divisible by `k`.  
