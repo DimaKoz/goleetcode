@@ -455,8 +455,7 @@ Return true if it is possible to make both strings equal by performing at most o
   `Output: [7,0,8]`
   
   `Explanation: 342 + 465 = 807`
-  
-  
+
  - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/medium/8_string_to_integer_atoi.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/medium/8_string_to_integer_atoi_test.go)) <details> <summary>Description</summary>
   Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer (similar to C/C++'s `atoi` function).
   
@@ -493,6 +492,19 @@ Return true if it is possible to make both strings equal by performing at most o
   For example, the saying and conversion for digit string `"3322251"`: !["3322251":](https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg)
 
   Given a positive integer `n`, return the `n-th` term of the count-and-say sequence.
+
+- [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/535_encode_and_decode_tinyurl.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/535_encode_and_decode_tinyurl_test.go)) <details> <summary>Description</summary>
+  TinyURL is a URL shortening service where you enter a URL such as `https://leetcode.com/problems/design-tinyurl` and it returns a short URL such as `http://tinyurl.com/4e9iAk`. Design a class to encode a URL and decode a tiny URL.
+
+  There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
+
+  Implement the `Solution` class:
+
+  - `Solution()` Initializes the object of the system.
+
+  - `String encode(String longUrl)` Returns a tiny URL for the given `longUrl`.
+
+  - `String decode(String shortUrl)` Returns the original long URL for the given `shortUrl`. It is guaranteed that the given `shortUrl` was encoded by the same object.
 
 - [1329. Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1329_sort_the_matrix_diagonally.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1329_sort_the_matrix_diagonally_test.go)) <details> <summary>Description</summary>
   A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix's end. For example, the matrix diagonal starting from `mat[2][0]`, where `mat` is a `6 x 3` matrix, includes cells `mat[2][0]`, `mat[3][1]`, and `mat[4][2]`.
