@@ -506,6 +506,15 @@ Return true if it is possible to make both strings equal by performing at most o
 
   - `String decode(String shortUrl)` Returns the original long URL for the given `shortUrl`. It is guaranteed that the given `shortUrl` was encoded by the same object.
 
+- [1282. Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1282_group_the_people_given_the_group_size_they_belong_to.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1282_group_the_people_given_the_group_size_they_belong_to_test.go)) <details> <summary>Description</summary>
+  There are `n` people that are split into some unknown number of groups. Each person is labeled with a **unique ID** from `0` to `n - 1`.
+
+  You are given an integer array `groupSizes`, where `groupSizes[i]` is the size of the group that person `i` is in. For example, if `groupSizes[1] = 3`, then person `1` must be in a group of size `3`.
+
+  Return a list of groups such that each person `i` is in a group of size `groupSizes[i]`.
+
+  Each person should appear in exactly one group, and every person must be in a group. If there are multiple answers, return any of them. It is guaranteed that there will be at least one valid solution for the given input.
+
 - [1329. Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1329_sort_the_matrix_diagonally.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1329_sort_the_matrix_diagonally_test.go)) <details> <summary>Description</summary>
   A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix's end. For example, the matrix diagonal starting from `mat[2][0]`, where `mat` is a `6 x 3` matrix, includes cells `mat[2][0]`, `mat[3][1]`, and `mat[4][2]`.
 
