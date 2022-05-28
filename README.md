@@ -234,6 +234,11 @@ Return the array after sorting it.
 
   Return the array in the form `[x1,y1,x2,y2,...,xn,yn]`.
   
+- [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1480_running_sum_of_1d_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1480_running_sum_of_1d_array_test.go)) <details> <summary>Description</summary>
+  Given an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`.
+
+  Return the running sum of `nums`.
+
 - [1486. XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1486_xor_operation_in_an_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1486_xor_operation_in_an_array_test.go)) <details> <summary>Description</summary>
   You are given an integer `n` and an integer `start`.
 
