@@ -337,6 +337,11 @@ You are given two strings s1 and s2 of equal length. A string swap is an operati
 &nbsp;
 Return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. Otherwise, return false.&nbsp;
 
+- [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1791_find_center_of_star_graph.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1791_find_center_of_star_graph_test.go)) <details> <summary>Description</summary>
+  There is an undirected star graph consisting of `n` nodes labeled from `1` to `n`. A star graph is a graph where there is one center node and exactly `n - 1` edges that connect the center node with every other node.
+
+  You are given a 2D integer array `edges` where each `edges[i] = [ui, vi]` indicates that there is an edge between the nodes `ui` and `vi`. Return the center of the given star graph.
+
 - [1816. Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1816_truncate_sentence.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1816_truncate_sentence_test.go)) <details> <summary>Description</summary>
   A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation).
 
