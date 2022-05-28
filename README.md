@@ -268,6 +268,16 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
 
   Return the sum of all odd-length subarrays of `arr`.
 
+- [1656. Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1656_design_an_ordered_stream.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1656_design_an_ordered_stream_test.go)) <details> <summary>Description</summary>
+  There is a stream of `n` `(idKey, value)` pairs arriving in an arbitrary order, where `idKey` is an integer between `1` and `n` and `value` is a string. No two pairs have the same id.
+
+  Design a stream that returns the values in increasing order of their IDs by returning a chunk (list) of values after each insertion. The concatenation of all the chunks should result in a list of the sorted values.
+
+  Implement the `OrderedStream` class:
+
+  - `OrderedStream(int n)` Constructs the stream to take `n` values.
+  - `String[] insert(int idKey, String value)` Inserts the pair `(idKey, value)` into the stream, then returns the largest possible chunk of currently inserted values that appear next in the order.
+
 - [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1662_check_if_two_string_arrays_are_equivalent.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1662_check_if_two_string_arrays_are_equivalent_test.go)) <details> <summary>Description</summary>
   Given two string arrays `word1` and `word2`, return `true` if the two arrays represent the same string, and `false` otherwise.
 
