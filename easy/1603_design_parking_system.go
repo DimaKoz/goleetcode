@@ -1,6 +1,8 @@
 package easy
 
 /*
+https://leetcode.com/problems/design-parking-system/
+
 Constraints:
 
 0 <= big, medium, small <= 1000

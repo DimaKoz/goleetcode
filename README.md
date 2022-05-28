@@ -267,6 +267,14 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
   A subarray is a contiguous subsequence of the array.
 
   Return the sum of all odd-length subarrays of `arr`.
+  
+- [1603. Design Parking System](https://leetcode.com/problems/design-parking-system/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1603_design_parking_system.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1603_design_parking_system_test.go)) <details> <summary>Description</summary>
+  Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.
+
+  Implement the `ParkingSystem` class:
+
+  - `ParkingSystem(int big, int medium, int small)` Initializes object of the `ParkingSystem` class. The number of slots for each parking space are given as part of the constructor. 
+  - `bool addCar(int carType)` Checks whether there is a parking space of `carType` for the car that wants to get into the parking lot. `carType` can be of three kinds: big, medium, or small, which are represented by `1`, `2`, and `3` respectively. A car can only park in a parking space of its `carType`. If there is no space available, return `false`, else park the car in that size space and return `true`.
 
 - [1656. Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1656_design_an_ordered_stream.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1656_design_an_ordered_stream_test.go)) <details> <summary>Description</summary>
   There is a stream of `n` `(idKey, value)` pairs arriving in an arbitrary order, where `idKey` is an integer between `1` and `n` and `value` is a string. No two pairs have the same id.
