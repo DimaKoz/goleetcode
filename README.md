@@ -160,6 +160,11 @@ Given a string `s`, return the string after replacing every uppercase letter wit
   To invert an image means that each `0` is replaced by `1`, and each `1` is replaced by `0`.
 
   - For example, inverting `[0,1,1]` results in `[1,0,0]`.
+
+- [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/876_middle_of_the_linked_list.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/876_middle_of_the_linked_list_test.go)) <details> <summary>Description</summary>
+  Given the `head` of a singly linked list, return the middle node of the linked list.
+
+  If there are two middle nodes, return the second middle node.
   
 - [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses_test.go)) <details> <summary>Description</summary>
   A valid parentheses string is either empty `""`, `"(" + A + ")"`, or `A + B`, where `A` and `B` are valid parentheses strings, and `+` represents string concatenation.
