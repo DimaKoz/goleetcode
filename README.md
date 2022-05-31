@@ -298,6 +298,29 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
   - `ParkingSystem(int big, int medium, int small)` Initializes object of the `ParkingSystem` class. The number of slots for each parking space are given as part of the constructor. 
   - `bool addCar(int carType)` Checks whether there is a parking space of `carType` for the car that wants to get into the parking lot. `carType` can be of three kinds: big, medium, or small, which are represented by `1`, `2`, and `3` respectively. A car can only park in a parking space of its `carType`. If there is no space available, return `false`, else park the car in that size space and return `true`.
 
+- [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1614_maximum_nesting_depth_of_the_parentheses.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1614_maximum_nesting_depth_of_the_parentheses_test.go)) <details> <summary>Description</summary>
+  A string is a valid parentheses string (denoted VPS) if it meets one of the following:
+
+  - It is an empty string `""`, or a single character not equal to `"("` or `")"`,
+  
+  - It can be written as `AB` (`A` concatenated with `B`), where `A` and `B` are VPS's, or
+
+  - It can be written as `(A)`, where `A` is a VPS.
+
+  We can similarly define the nesting depth `depth(S)` of any VPS `S` as follows:
+
+  - `depth("") = 0`
+
+  - `depth(C) = 0`, where `C` is a string with a single character not equal to `"("` or `")"`.
+
+  - `depth(A + B) = max(depth(A), depth(B))`, where `A` and `B` are VPS's.
+
+  - `depth("(" + A + ")") = 1 + depth(A)`, where `A` is a VPS.
+
+  For example, `""`, `"()()"`, and `"()(()())"` are VPS's (with nesting depths 0, 1, and 2), and `")("` and `"(()"` are not VPS's.
+
+  Given a VPS represented as string `s`, return the nesting depth of `s`.
+
 - [1656. Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1656_design_an_ordered_stream.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1656_design_an_ordered_stream_test.go)) <details> <summary>Description</summary>
   There is a stream of `n` `(idKey, value)` pairs arriving in an arbitrary order, where `idKey` is an integer between `1` and `n` and `value` is a string. No two pairs have the same id.
 
