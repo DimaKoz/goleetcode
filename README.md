@@ -420,6 +420,15 @@ Return true if it is possible to make both strings equal by performing at most o
   For example, the sentence `"This is a sentence"` can be shuffled as `"sentence4 a3 is2 This1"` or `"is2 sentence4 This1 a3"`.
   Given a shuffled sentence `s` containing no more than `9` words, reconstruct and return the original sentence.
 
+- [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1913_maximum_product_difference_between_two_pairs.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1913_maximum_product_difference_between_two_pairs_test.go)) <details> <summary>Description</summary>
+  The product difference between two pairs `(a, b)` and `(c, d)` is defined as `(a * b) - (c * d)`.
+
+  - For example, the product difference between `(5, 6)` and `(2, 7)` is `(5 * 6) - (2 * 7) = 16`.
+
+  Given an integer array `nums`, choose four distinct indices `w`, `x`, `y`, and `z` such that the product difference between pairs `(nums[w], nums[x])` and `(nums[y], nums[z])` is maximized.
+
+  Return the maximum such product difference.
+
 - [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1920_build_array_from_permutation.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1920_build_array_from_permutation_test.go)) <details> <summary>Description</summary>
   Given a zero-based permutation nums (0-indexed), build an array `ans` of the same length where `ans[i] = nums[nums[i]]` for each `0 <= i < nums.length` and return it.
 
