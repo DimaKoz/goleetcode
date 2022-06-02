@@ -278,6 +278,23 @@ Return the array after sorting it.
 
   Return the *shuffled string*.
 
+- [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1534_count_good_triplets.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1534_count_good_triplets_test.go)) <details> <summary>Description</summary>
+  Given an array of integers `arr`, and three integers `a`, `b` and `c`. You need to find the number of good triplets.
+
+  A triplet `(arr[i], arr[j], arr[k])` is **good** if the following conditions are true:
+
+  - `0 <= i < j < k < arr.length`
+
+  - `|arr[i] - arr[j]| <= a`
+
+  - `|arr[j] - arr[k]| <= b`
+
+  - `|arr[i] - arr[k]| <= c`
+  
+  Where `|x|` denotes the absolute value of `x`.
+
+  Return *the number of good triplets*.
+  
 - [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1572_matrix_diagonal_sum.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1572_matrix_diagonal_sum_test.go)) <details> <summary>Description</summary>
   Given a square matrix `mat`, return the sum of the matrix diagonals.
 
