@@ -133,6 +133,15 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 - [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/709_to_lower_case.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/709_to_lower_case_test.go)) <details> <summary>Description</summary>
 Given a string `s`, return the string after replacing every uppercase letter with the same lowercase letter.
 
+- [728. Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/728_self_dividing_numbers.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/728_self_dividing_numbers_test.go)) <details> <summary>Description</summary>
+  A self-dividing number is a number that is divisible by every digit it contains.
+
+  - For example, `128` is a self-dividing number because `128 % 1 == 0`, `128 % 2 == 0`, and `128 % 8 == 0`.
+
+  A self-dividing number is not allowed to contain the digit zero.
+
+  Given two integers `left` and `right`, return a list of all the self-dividing numbers in the range `[left, right]`.
+
 - [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/771_jewels_and_stones.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/771_jewels_and_stones_test.go)) <details> <summary>Description</summary>
   You're given strings `jewels` representing the types of stones that are jewels, and `stones` representing the stones you have. Each character in `stones` is a type of stone you have. You want to know how many of the stones you have are also jewels.
 
