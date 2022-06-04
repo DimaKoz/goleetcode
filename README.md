@@ -531,6 +531,13 @@ Return true if it is possible to make both strings equal by performing at most o
 - [2176. Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2176_count_equal_and_divisible_pairs_in_an_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2176_count_equal_and_divisible_pairs_in_an_array_test.go)) <details> <summary>Description</summary>
   Given a 0-indexed integer array `nums` of length `n` and an integer `k`, return the number of pairs `(i, j)` where `0 <= i < j < n`, such that `nums[i] == nums[j]` and `(i * j)` is divisible by `k`.  
 
+- [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2185_counting_words_with_a_given_prefix.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2185_counting_words_with_a_given_prefix_test.go)) <details> <summary>Description</summary>
+  You are given an array of strings `words` and a string `pref`.
+
+  Return the number of strings in `words` that contain `pref` as a prefix.
+
+  A prefix of a string `s` is any leading contiguous substring of `s`.
+
 - [2194. Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/2194_cells_in_a_range_on_an_excel_sheet.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/2194_cells_in_a_range_on_an_excel_sheet_test.go)) <details> <summary>Description</summary>
   A cell `(r, c)` of an excel sheet is represented as a string `"<col><row>"` where:
 
