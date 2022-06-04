@@ -254,7 +254,12 @@ Return the array after sorting it.
   Return a boolean array `result` of length `n`, where `result[i]` is `true` if, after giving the `i-th` kid all the `extraCandies`, they will have the greatest number of candies among all the kids, or `false` otherwise.
 
   Note that **multiple** kids can have the **greatest** number of candies.   
-  
+
+- [1436. Destination City](https://leetcode.com/problems/destination-city/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1436_destination_city.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1436_destination_city_test.go)) <details> <summary>Description</summary>
+  You are given the array `paths`, where `paths[i] = [cityAi, cityBi]` means there exists a direct path going from `cityAi` to `cityBi`. Return the destination city, that is, the city without any path outgoing to another city.
+
+  It is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly one destination city.
+
 - [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1470_shuffle_the_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1470_shuffle_the_array_test.go)) <details> <summary>Description</summary>
   Given the array `nums` consisting of `2n` elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
 
