@@ -179,7 +179,12 @@ Given a string `s`, return the string after replacing every uppercase letter wit
   Given the `head` of a singly linked list, return the middle node of the linked list.
 
   If there are two middle nodes, return the second middle node.
-  
+
+- [953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/953_verifying_an_alien_dictionary.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/953_verifying_an_alien_dictionary_test.go)) <details> <summary>Description</summary>
+  In an alien language, surprisingly, they also use English lowercase letters, but possibly in a different `order`. The `order` of the alphabet is some permutation of lowercase letters.
+
+  Given a sequence of `words` written in the alien language, and the `order` of the alphabet, return `true` if and only if the given `words` are sorted lexicographically in this alien language.
+
 - [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1021_remove_outermost_parentheses_test.go)) <details> <summary>Description</summary>
   A valid parentheses string is either empty `""`, `"(" + A + ")"`, or `A + B`, where `A` and `B` are valid parentheses strings, and `+` represents string concatenation.
 

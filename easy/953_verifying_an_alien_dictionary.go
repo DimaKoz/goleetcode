@@ -1,6 +1,8 @@
 package easy
 
 /*
+https://leetcode.com/problems/verifying-an-alien-dictionary/
+
 Constraints:
 
 1 <= words.length <= 100
