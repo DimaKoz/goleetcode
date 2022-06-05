@@ -385,7 +385,14 @@ Given an array of positive integers `arr`, calculate the sum of all possible odd
   If the current number of teams is odd, one team randomly advances in the tournament, and the rest gets paired. A total of `(n - 1) / 2` matches are played, and `(n - 1) / 2 + 1` teams advance to the next round.
   
   Return the number of matches played in the tournament until a winner is decided.
-  
+
+- [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1704_determine_if_string_halves_are_alike.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1704_determine_if_string_halves_are_alike_test.go)) <details> <summary>Description</summary>
+  You are given a string `s` of even length. Split this string into two halves of equal lengths, and let `a` be the first half and `b` be the second half.
+
+  Two strings are alike if they have the same number of vowels `('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')`. Notice that `s` contains uppercase and lowercase letters.
+
+  Return `true` if `a` and `b` are alike. Otherwise, return `false`.
+
 - [1720. Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) (solved [here](https://github.com/DimaKoz/goleetcode/blob/main/easy/1720_decode_xored_array.go), [tests](https://github.com/DimaKoz/goleetcode/blob/main/easy/1720_decode_xored_array_test.go)) <details> <summary>Description</summary>
   There is a hidden integer array `arr` that consists of `n` non-negative integers.
 
