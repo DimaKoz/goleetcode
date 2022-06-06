@@ -4,8 +4,8 @@ import "testing"
 
 func TestHalvesAreAlike(t *testing.T) {
 	type Case struct {
-		s string
-		expect  bool
+		s      string
+		expect bool
 	}
 	cases := []Case{
 		{"book", true},
@@ -18,4 +18,3 @@ func TestHalvesAreAlike(t *testing.T) {
 		}
 	}
 }
-
